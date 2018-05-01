@@ -1,0 +1,77 @@
+:root{
+    --jet         : #333333;
+    --seablue     : #016295;
+    --silver      : #BFBFBF;
+    --platinum    : #E8E8E8;
+    --snow        : #FCF7F8;
+}
+
+body{
+	margin: 0;
+	background-color: var(--seablue);
+	background-color: #016295; 
+}
+
+.teampic {
+	width: 100%;
+	height: 829px; 
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/DowntownOttawaBackground.jpg');
+}
+
+.imageText {
+	display: table;
+	font-family: 'raleway';
+	font-size: 60px;
+	color: var(--snow);
+	color: #FCF7F8; 
+	padding-top: 100px; 
+	margin: 0 auto;
+}
+
+.imageBox {
+	display: table;
+	font-family: 'raleway';
+	color: var(--jet);
+	color: #333333; 
+	margin: 0 auto; 
+	margin-top: 40px; 
+	background-color: var(--snow);
+	background-color: #FCF7F8; 
+	border-radius: 3px;
+	padding: 20px;
+	opacity: 0.9;
+}
+
+
+.imageName {
+	padding: 10px 30px;
+	font-size: 32px;
+}
+
+.info1 {
+	padding: 0px 45px;
+	border-radius: 3px;
+	color: var(--jet); 
+	color: #333333; 
+	display: table; 
+	margin: 0 auto;
+	font-family: 'nunito'; 
+}
+
+.info1 div {
+	margin: 3px; 
+}
+
+
+.spacer {
+	width: 100%;
+	height: 20px; 
+}
+
+.filler {
+	background-color: var(--jet);
+	background-color: #333333; 
+	width:100%;
+	height:47px; 
+	margin-top: -4px; 
+}

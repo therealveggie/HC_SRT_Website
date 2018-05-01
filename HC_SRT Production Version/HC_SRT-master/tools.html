@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/Tools.css">
+    <link rel="stylesheet" type="text/css" href="css/reusable/header.css">
+    <link rel="stylesheet" type="text/css" href="css/reusable/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/reusable/spacers.css">
+	<link rel="stylesheet" type="text/css" href="css/reusable/tooltip.css">
+	
+	<script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+	<script src="js/tools.js" type="text/javascript"></script>
+	
+	<title>HC SRT | Tools</title>
+</head>
+
+<body>
+	<div class="navbar">
+	  <div class="MapleLink">
+		<a href="https://www.canada.ca/en/health-canada.html" target="_blank"><img class="MapleLeaf" src="images/BigMapleLeaf.svg.png"></a>
+		<div class="HC">HC</div>
+	  </div>
+
+	  <div class="position2">
+		<a href="HC Website.html">Home</a>
+		<a href="Tutorials.html">Tutorials</a>
+		<div class="dropdown">
+		  <button class="dropbtn" onclick="drop2()">Project</button>
+		  <div class="dropdown-content" id="myDropdown2">
+			<a href="overview.html">Overview</a>
+			<a href="history.html">History</a>
+			<a href="tools.html">Tools</a>
+		  </div>
+		</div> 
+		<a href="team.html">Team</a>
+		<a href="Contact_Us.html">Contact</a>
+	  </div>
+	</div>
+	
+	<div class="introduction">
+		<div class="title">SRT Functions</div>	
+		<div class="spacer10"></div>
+		<div class="underline"></div> 
+		<div class="spacer10"></div> 
+		
+		<div class="section">
+		
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(0)">
+					<img src="images/tools/Autopopulate.png">
+				</div>
+				<span class="tooltiptext">Auto-Populate</span> 
+			</div>
+
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(1)">
+					<img src="images/tools/TemplateDesign.png">
+				</div>
+				<span class="tooltiptext">Template Design</span> 
+			</div>
+			
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(2)">
+					<img src="images/tools/Screening.png">
+				</div>
+				<span class="tooltiptext">Screening</span> 
+			</div>
+			
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(3)">
+					<img src="images/tools/Review.png">
+				</div>
+				<span class="tooltiptext">Review</span> 
+			</div>
+
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(4)">
+					<img src="images/tools/Issues.png">
+				</div>
+				<span class="tooltiptext">Issues</span> 
+			</div>
+
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(5)">
+					<img src="images/tools/Queries.png">
+				</div>
+				<span class="tooltiptext">Queries</span> 
+			</div>
+			
+			<div class="tooltip">
+				<div class="icon" onclick="showInfo(6)">
+					<img src="images/tools/OSE.png">
+				</div>
+				<span class="tooltiptext">On Site Evaluation</span> 
+			</div>
+		</div>
+	</div>
+	
+	<div class="introduction">
+		<div id="titleInfo" class="title">Auto-Populate</div>	
+		<div id="descriptionInfo" class="text textCenter">
+			Allows users to auto-populate tombstone events into documents
+		</div>		
+		
+		<div class="spacer50"></div>
+		
+		<div class="row">
+			<div class="column">
+				<div class="subtitle">Goals</div>
+				<div class="spacer10"></div>
+				<div class="underline_2"></div> 
+				<ul id="goalsInfo" class="text" style="list-style-type:circle">
+					<li>Reduce and ideally eliminate tombstone data entry</li>
+					<li>Easily access tombstone data with a relevant control number</li>
+				</ul>	
+			</div> 
+			
+			<div class="column">
+				<div class="subtitle">Functions</div>
+				<div class="spacer10"></div>
+				<div class="underline_2"></div> 
+				<ul id="functionsInfo" class="text" style="list-style-type:circle">
+					<li>Scan, retrieve, and populate data for content controlled fields with the relevent control number</li>
+					<li>Save updated or new data to the local database (e.g. non-tombstone data)</li>
+				</ul>	
+			</div>
+		</div>
+
+	</div>
+
+	
+	<script src="js/NavBar.js"></script>
+	<script src="js/tools.js"></script> 
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Slab|Open+Sans+Condensed:300|Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/tutorial.css">
+	<link rel="stylesheet" type="text/css" href="css/reusable/navigation.css">
+	<link rel="stylesheet" type="text/css" href="css/reusable/header.css">
+	<link rel="stylesheet" type="text/css" href="css/reusable/spacers.css">
+    <link rel="stylesheet" type="text/css" href="css/reusable/accordian.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/BigMapleLeaf.svg.png" />
+	<title>HC: Phase I Tutorials</title>
+</head>
+
+<body>
+	<div class="navbar">
+	  <div class="MapleLink">
+		<a href="https://www.canada.ca/en/health-canada.html" target="_blank"><img class="MapleLeaf" src="images/BigMapleLeaf.svg.png"></a>
+		<div class="HC">HC</div>
+	  </div>
+
+	  <div class="position2">
+		<a href="HC Website.html">Home</a>
+		<a href="Tutorials.html">Tutorials</a>
+		<div class="dropdown">
+		  <button class="dropbtn" onclick="drop2()">Project</button>
+		  <div class="dropdown-content" id="myDropdown2">
+			<a href="overview.html">Overview</a>
+			<a href="history.html">History</a>
+			<a href="tools.html">Tools</a>
+		  </div>
+		</div> 
+		<a href="team.html">Team</a>
+		<a href="Contact_Us.html">Contact</a>
+	  </div>
+	</div>
+	
+	<div class="row">		
+		<div id="video" class = "column1">
+			<div id="container">
+				<video width="100%" controls>
+				<source src="tutorials/OBS_Livesaver/BasicUser/FirstLogin.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+		
+		<div id="Accordion" class="column2">
+		  <button class="accordion">Basic User Functions</button>
+		  <div class="panel">
+			<div class="link" onclick="changeVideo(1)">First Login</div>
+			<div class="link" onclick="changeVideo(2)">Opening Templates</div>
+			<div class="link" onclick="changeVideo(3)">Find Submissions and Getting Documents</div>
+			<div class="link" onclick="changeVideo(4)">Load Data with Overwrite and Force DSTS</div>
+			<div class="link" onclick="changeVideo(5)">Saving Data</div>
+			<div class="link" onclick="changeVideo(6)">Saving Data with Version Control</div>
+			<div class="link" onclick="changeVideo(7)">Multiple Control Numbers</div>
+			<div class="link" onclick="changeVideo(8)">Default Values</div>
+		  </div>
+		  
+		  <button class="accordion">Template Design</button>
+		  <div class="panel">
+			<div class="link" onclick="changeVideo(9)">Manage Template Overview</div>
+			<div class="link" onclick="changeVideo(10)">Creating Templates</div>
+			<div class="link" onclick="changeVideo(11)">Edit and Delete Templates</div>
+			<div class="link" onclick="changeVideo(12)">Insert Fields</div>
+			<div class="link" onclick="changeVideo(13)">Manage Fields: Part 1</div>
+			<div class="link" onclick="changeVideo(14)">Manage Fields: Part 2</div>
+			<div class="link" onclick="changeVideo(15)">Manage Fields: Part 3</div>
+		  </div>
+		  
+		  <button class="accordion">Screening</button>
+		  <div class="panel">
+			<div class="link" onclick="changeVideo(16)">Manage Post NOC Changes</div>
+			<div class="link" onclick="changeVideo(17)">Navigate Post NOC Changes</div>
+			<div class="link" onclick="changeVideo(18)">Assess</div>	
+		  </div>  
+
+		  <button class="accordion">Review</button>
+		  <div class="panel">
+			<div class="link" onclick="changeVideo(19)">Manage Reviews: Part 1</div>
+			<div class="link" onclick="changeVideo(20)">Manage Reviews: Part 2</div>
+			<div class="link" onclick="changeVideo(21)">Manage Reviews: Part 3</div>
+			<div class="link" onclick="changeVideo(22)">Manage Reviews: Part 4</div>
+			<div class="link" onclick="changeVideo(23)">Documents</div>
+			<div class="link" onclick="changeVideo(24)">Add Header</div>
+			<div class="link" onclick="changeVideo(25)">Scan Document</div>			
+		  </div>  
+		  
+		  <button class="accordion">Issues</button>
+		  <div class="panel">
+			<div class="link">To be added</div>
+		  </div>  
+		  
+		  <button class="accordion">Queries</button>
+		  <div class="panel">
+			<div class="link">To be added</div>
+		  </div>  
+		</div>
+	</div>
+	
+	<div class="document">
+		<div class="title" id="videoTitle"><b>Transcript: </b>First Login</div>
+		<div class="spacer25"></div>
+		<div class="text" id="videoDescription">Hi all, welcome to the BGTD screening and review tool tutorial series. I, Andrew Xing will be your guide for this module. Without further ado, let's log as first time user. We start by opening Microsoft Word, I have the 2013 version, it may look different from yours, but no worries, it will work the same way. Select the SRT tab at the top. Now, to connect to the application's databases, we will have to import a connection string file. And this connection file should have been provided to you already. Let's dropdown and the select import. Locate the connection file in your email and save it to a convenient location such as your myKey folder on your K drive. I've put mine on my desktop. This popup says we've been successfully connected, great, let's close it and log in. Press the login button and enter the username and password that you have been given. Since you are a first time user, you will be asked to change your password. Please keep in mind that the new password needs at least one special character, uppercase character, lowercase character and number. Additionally, you will be required to change your password every six months. Now that we're done entering the new information, let's save the password, and you're in! For all subsequent logins, your credentials will be saved to the computer and you will not need to enter your password. Let's show you how it's done. I'm just going to reopen Microsoft Word and press the connection button; and voila, you're in again.</div>	
+	</div>
+
+	
+	<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"></script>
+	<script src="js/IEObjectFit.js"></script>
+	<script src="js/NavBar.js"></script>
+  
+    <script src="js/Accordion.js"></script>
+	<script src="js/VideoList.js"></script>
+  
+	<script>
+		document.getElementById("Accordion").style.height = String(document.getElementById("container").clientHeight) + "px";
+		
+		var currentHeight = document.getElementById("container").clientHeight; 		
+		setInterval(function(){ 
+			if (currentHeight != document.getElementById("container").clientHeight && (videoList[lastVideo] !== undefined)) {
+				currentHeight = document.getElementById("container").clientHeight;
+				document.getElementById("Accordion").style.height = String(currentHeight) + "px";
+			} 
+			if (videoList[lastVideo] === undefined) {
+				document.getElementById("container").innerHTML = "This video has not been made yet :("
+			}
+		}, 250);
+	</script>
+</body>
+</html>
+
+
+
+
+

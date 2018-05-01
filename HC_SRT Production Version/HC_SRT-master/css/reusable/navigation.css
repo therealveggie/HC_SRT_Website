@@ -1,0 +1,101 @@
+:root{
+    --jet         : #333333;
+    --seablue     : #016295;
+    --silver      : #BFBFBF;
+    --platinum    : #E8E8E8;
+    --snow        : #FCF7F8;
+}
+
+body {
+    margin: 0; 
+    background-color: var(--snow);
+	background-color: #FCF7F8; 
+}
+
+.navbar {
+    z-index: 9001;
+    overflow: hidden;
+    background-color: var(--jet);
+    background-color: #333;
+    font-family: 'Oxygen', 'Nunito'; /*font-family: 'Nunito'; */
+}
+
+.MapleLink {
+	float: left; 
+}
+
+.MapleLeaf {
+	width: 25px;
+	height: 25px; 
+	margin: 8px 5px 2px 5px;
+}
+
+.HC {
+	font-size: 10px; 
+	display: inline-block; 
+	color: white;
+	padding: 0px 0px 0px 0px; 
+}
+
+.position2 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 22px;
+    text-decoration: none;
+}
+
+.position2 {
+    display: table;
+    margin: 0 auto; 
+	padding-right: 3%; 
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 16px;
+	background-color: var(--jet);
+    background-color: #333;
+    font: inherit;
+    margin: 0;
+}
+
+.position2 a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .MapleLeaf:hover {
+    background-color: #474747;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
